@@ -1,0 +1,73 @@
+[
+  {
+    "ProductID":1,
+    "ProductName":"Swagat Grand",
+    "ProductCode":"COD-1234",
+    "ReleaseDate":"Open",
+    "Description": "asdfghjlkjhgfsaweryuyt",
+    "Price":200,
+    "StarRating":4.4,
+    "imageURL":"assets/images/Bat.png"
+},
+{
+  "ProductID":2,
+  "ProductName":"Santhosh Family Dabha",
+  "ProductCode":"COD-5678",
+  "ReleaseDate":"Open",
+  "Description": "asdfghjlkjhgfsaweryuyt",
+  "Price":200,
+  "StarRating":3.8,
+  "imageURL":"assets/images/Ball.png"
+},
+  {
+    "ProductID": 3,
+    "ProductName": "Dosa Delight",
+    "ProductCode": "TBX-0048",
+    "ReleaseDate": "Open",
+    "Description": "Curved claw steel hammer",
+    "Price": 890,
+    "StarRating": 4.8,
+    "imageURL": "assets/images/hammer.png"
+  },
+  {
+    "ProductID": 4,
+    "ProductName": "Bhadras",
+    "ProductCode": "TBX-0022",
+    "ReleaseDate": "Open",
+    "Description": "15-inch steel blade hand saw",
+    "Price": 1100,
+    "StarRating": 3.7,
+    "imageURL": "assets/images/saw.png"
+  },
+  {
+    "ProductID": 5,
+    "ProductName": "Suruchi",
+    "ProductCode": "GMG-0042",
+    "ReleaseDate": "Open",
+    "Description": "Standard two-button video game controller",
+    "Price": 3500,
+    "StarRating": 4.6,
+    "imageURL": "assets/images/xbox-controller.png"
+  },
+
+  {
+    "ProductID": 6,
+    "ProductName": "Swathi Tiffins",
+    "ProductCode": "GDN-0011",
+    "ReleaseDate": "Open",
+    "Description": "Leaf rake with 48-inch wooden handle.",
+    "Price": 1995,
+    "StarRating": 3.2,
+    "imageURL": "assets/images/leaf_rake.png"
+  },
+  {
+    "ProductID": 7,
+    "ProductName": "Eagles Pizza",
+    "ProductCode": "GDN-0023",
+    "ReleaseDate": "Open",
+    "Description": "15 gallon capacity rolling garden cart",
+    "Price": 3299,
+    "StarRating": 4.2,
+    "imageURL": "assets/images/garden_cart.png"
+  }
+]

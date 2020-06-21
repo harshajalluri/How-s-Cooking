@@ -1,0 +1,43 @@
+<div class='card'>
+  <div class='card header'>
+    {{pageTitle}}
+  </div>
+  <div class='card-body'>
+      <div class= 'table-responsive'>
+          <table class = 'table' *ngIf= 'items && items.length'>
+              <thead>
+                  <tr>
+                      <th>Check</th>
+                      <th>Item</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td><input type="checkbox" [(ngModel)]="agree"></td>
+                      <td>Chilli Panneer</td>
+                  </tr>
+                  <tr >
+                    <td><input type="checkbox" [(ngModel)]="agree1"></td>
+                    <td>Chicken Biryani</td>
+                </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+  <div class='card-footer'>
+    <button class='btn btn-outline-secondary'
+            (click)='onBack()'
+            style='width:80px'>
+      <i class='fa fa-chevron-left'></i> Back
+    </button>
+    <button class='btn btn-outline-secondary'
+            [disabled]="!agree && !agree1"
+            (click)='btnClick()'
+            style='width:100px'>
+      <i class='fa fa-chevron-right'></i> Order
+    </button>
+  </div>
+  <div *ngIf="watchlive">
+  <order-component></order-component>
+</div>
+</div>
